@@ -1,5 +1,87 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  background-color: tomato;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h3 {
+  font-size: 24px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.header input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.header button {
+  height: 84px;
+  border: none;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: row;  
+}
+
+.itemContent span {
+  background-color: tomato;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid
 }
 
 .App-logo {
